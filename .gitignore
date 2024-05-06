@@ -19,6 +19,14 @@ poetry.lock
 .env.test.local
 .env.production.local
 .venv/
+.env
+
+# database
+*.sqlite3
+
+# pycache
+*__pycache__/
+
 
 npm-debug.log*
 yarn-debug.log*
